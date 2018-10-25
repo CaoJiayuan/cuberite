@@ -1,0 +1,10 @@
+sudo: required
+services:
+  - docker
+before_install:
+  - docker pull ubuntu:bionic
+  - echo $DOCKER_PWD | docker login -u $DOCKER_USER --password-stdin
+script:
+  - docker build -t cjy632258/cuberite .
+after_success:
+  - docker push cjy632258/cuberite
