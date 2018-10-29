@@ -2,7 +2,7 @@
 ; Most of the settings here can be configured using the webadmin interface, if enabled in webadmin.ini
 
 [Authentication]
-Authenticate=1
+Authenticate=${AUTHENTICATE}
 AllowBungeeCord=0
 Server=sessionserver.mojang.com
 Address=/session/minecraft/hasJoined?username=%USERNAME%&serverId=%SERVERID%
