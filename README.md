@@ -8,3 +8,7 @@
 * ```ADMIN_USERNAME``` admin username (default: admin)
 * ```ADMIN_PASSWORD``` admin password (default: admin)
 * ```AUTHENTICATE``` authenticate (default: 0)
+
+## Volume
+
+* world data ```/data```
